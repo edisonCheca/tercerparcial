@@ -4,7 +4,7 @@ const Dashboard = () => {
     return (
         <>
             <div className="dashboard">
-                <a href=''>
+                <a>
                     Dashboard
                 </a>
             </div>

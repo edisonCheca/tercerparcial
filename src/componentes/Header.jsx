@@ -1,21 +1,18 @@
-import React from 'react'
-import About from './About'
-import Dashboard from './Dashboard'
-import Home from './Home'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <>
-        <div className="container">
-            <Home />
-            <About />
-            <Dashboard />
-            <div>
-                <h3>Home</h3>
-            </div>
+        <div className="header">
+            <nav>
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/dashboard">Dashboard</Link></li>
+                </ul>
+            </nav>
         </div>
-        </>
-    )
+    );
 }
 
-export default Header
+export default Header;

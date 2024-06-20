@@ -1,8 +1,0 @@
-.imagen{
-    display: flex;
-    justify-content: center;
-}
-.imagen img {
-    width: 200px;
-    height: auto;
-}
